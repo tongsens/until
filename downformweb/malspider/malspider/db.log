@@ -1,0 +1,1205 @@
+INFO:scrapy.utils.log:Scrapy 1.1.3 started (bot: malspider)
+INFO:scrapy.utils.log:Overridden settings: {'NEWSPIDER_MODULE': 'malspider.spiders', 'SPIDER_MODULES': ['malspider.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'malspider'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://malwaredb.malekal.com/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=2> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=3> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=4> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=5> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=6> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=7> (referer: http://malwaredb.malekal.com/index.php?page=6)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=8> (referer: http://malwaredb.malekal.com/index.php?page=7)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=9> (referer: http://malwaredb.malekal.com/index.php?page=8)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=10> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=11> (referer: http://malwaredb.malekal.com/index.php?page=10)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=12> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=13> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=14> (referer: http://malwaredb.malekal.com/index.php?page=13)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=15> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=16> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=17> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=18> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=19> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=20> (referer: http://malwaredb.malekal.com/index.php?page=19)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=21> (referer: http://malwaredb.malekal.com/index.php?page=20)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=22> (referer: http://malwaredb.malekal.com/index.php?page=21)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=23> (referer: http://malwaredb.malekal.com/index.php?page=22)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=24> (referer: http://malwaredb.malekal.com/index.php?page=23)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=25> (referer: http://malwaredb.malekal.com/index.php?page=24)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=26> (referer: http://malwaredb.malekal.com/index.php?page=25)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=27> (referer: http://malwaredb.malekal.com/index.php?page=26)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=28> (referer: http://malwaredb.malekal.com/index.php?page=27)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=29> (referer: http://malwaredb.malekal.com/index.php?page=28)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=30> (referer: http://malwaredb.malekal.com/index.php?page=29)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=31> (referer: http://malwaredb.malekal.com/index.php?page=30)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=32> (referer: http://malwaredb.malekal.com/index.php?page=31)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=33> (referer: http://malwaredb.malekal.com/index.php?page=32)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=34> (referer: http://malwaredb.malekal.com/index.php?page=33)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=35> (referer: http://malwaredb.malekal.com/index.php?page=34)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=36> (referer: http://malwaredb.malekal.com/index.php?page=35)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=37> (referer: http://malwaredb.malekal.com/index.php?page=36)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=38> (referer: http://malwaredb.malekal.com/index.php?page=37)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=39> (referer: http://malwaredb.malekal.com/index.php?page=38)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=40> (referer: http://malwaredb.malekal.com/index.php?page=39)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=41> (referer: http://malwaredb.malekal.com/index.php?page=40)
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+INFO:scrapy.core.engine:Closing spider (shutdown)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=42> (referer: http://malwaredb.malekal.com/index.php?page=41)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 12460,
+ 'downloader/request_count': 43,
+ 'downloader/request_method_count/GET': 43,
+ 'downloader/response_bytes': 454897,
+ 'downloader/response_count': 43,
+ 'downloader/response_status_count/200': 42,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 10, 10, 7, 22, 14, 16874),
+ 'log_count/DEBUG': 44,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 42,
+ 'response_received_count': 43,
+ 'scheduler/dequeued': 42,
+ 'scheduler/dequeued/memory': 42,
+ 'scheduler/enqueued': 43,
+ 'scheduler/enqueued/memory': 43,
+ 'start_time': datetime.datetime(2016, 10, 10, 7, 21, 29, 49279)}
+INFO:scrapy.core.engine:Spider closed (shutdown)
+INFO:scrapy.utils.log:Scrapy 1.1.3 started (bot: malspider)
+INFO:scrapy.utils.log:Overridden settings: {'NEWSPIDER_MODULE': 'malspider.spiders', 'SPIDER_MODULES': ['malspider.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'malspider'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://malwaredb.malekal.com/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+ERROR:scrapy.core.scraper:Spider error processing <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/PycharmProjects/untitled/downformweb/malspider/malspider/spiders/malspider.py", line 20, in parse
+    if not db.selectMd5(md5=md5):
+NameError: global name 'db' is not defined
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 464,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 10927,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 10, 7, 27, 0, 94689),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/NameError': 1,
+ 'start_time': datetime.datetime(2016, 10, 10, 7, 26, 58, 862423)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 1.1.3 started (bot: malspider)
+INFO:scrapy.utils.log:Overridden settings: {'NEWSPIDER_MODULE': 'malspider.spiders', 'SPIDER_MODULES': ['malspider.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'malspider'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://malwaredb.malekal.com/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+ERROR:scrapy.core.scraper:Spider error processing <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 102, in iter_errback
+    yield next(it)
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/usr/local/lib/python2.7/dist-packages/scrapy/spidermiddlewares/depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "/root/PycharmProjects/untitled/downformweb/malspider/malspider/spiders/malspider.py", line 20, in parse
+    if not db.selectMd5(md5=md5):
+AttributeError: DataBase instance has no attribute 'selectMd5'
+INFO:scrapy.core.engine:Closing spider (finished)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/request_bytes': 464,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 10937,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 10, 7, 28, 8, 133245),
+ 'log_count/DEBUG': 3,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'spider_exceptions/AttributeError': 1,
+ 'start_time': datetime.datetime(2016, 10, 10, 7, 28, 7, 371738)}
+INFO:scrapy.core.engine:Spider closed (finished)
+INFO:scrapy.utils.log:Scrapy 1.1.3 started (bot: malspider)
+INFO:scrapy.utils.log:Overridden settings: {'NEWSPIDER_MODULE': 'malspider.spiders', 'SPIDER_MODULES': ['malspider.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'malspider'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://malwaredb.malekal.com/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d9eeeb6815ebd919732b446ff4a04e2d.zip> from <GET http://malwaredb.malekal.com/files.php?file=d9eeeb6815ebd919732b446ff4a04e2d>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/89b4ef94ed837cdcaeaafc5bdae7925a.zip> from <GET http://malwaredb.malekal.com/files.php?file=89b4ef94ed837cdcaeaafc5bdae7925a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7e496a88ec81e21ac30462bec0d7cf07.zip> from <GET http://malwaredb.malekal.com/files.php?file=7e496a88ec81e21ac30462bec0d7cf07>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3df5f191ee69299b2634faf06c3065fd.zip> from <GET http://malwaredb.malekal.com/files.php?file=3df5f191ee69299b2634faf06c3065fd>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/503363728c9bf9c23331050de1738203.zip> from <GET http://malwaredb.malekal.com/files.php?file=503363728c9bf9c23331050de1738203>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f2263f5640eca6ed4d8b2f300c4584fc.zip> from <GET http://malwaredb.malekal.com/files.php?file=f2263f5640eca6ed4d8b2f300c4584fc>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ba5cd871e53b6808b3b404b49c9b5ead.zip> from <GET http://malwaredb.malekal.com/files.php?file=ba5cd871e53b6808b3b404b49c9b5ead>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/55b7f7c7554d1cc998a6a95a7fa68454.zip> from <GET http://malwaredb.malekal.com/files.php?file=55b7f7c7554d1cc998a6a95a7fa68454>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/64e2aed209e96fbc53b92a2da1a95d79.zip> from <GET http://malwaredb.malekal.com/files.php?file=64e2aed209e96fbc53b92a2da1a95d79>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3b6c4260eaaf6a280d63ec638388dbd4.zip> from <GET http://malwaredb.malekal.com/files.php?file=3b6c4260eaaf6a280d63ec638388dbd4>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d2c5568720d10bb6ec512882d58ae82c.zip> from <GET http://malwaredb.malekal.com/files.php?file=d2c5568720d10bb6ec512882d58ae82c>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/dd66bcf26c50c12f2d1036ada8cc8c14.zip> from <GET http://malwaredb.malekal.com/files.php?file=dd66bcf26c50c12f2d1036ada8cc8c14>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ff35edacb8c847e85a6494e7858ecada.zip> from <GET http://malwaredb.malekal.com/files.php?file=ff35edacb8c847e85a6494e7858ecada>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/cd144cdec9f3d28d277a484bb731537f.zip> from <GET http://malwaredb.malekal.com/files.php?file=cd144cdec9f3d28d277a484bb731537f>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5826138beaa257757e8aa57c9b9f8f7f.zip> from <GET http://malwaredb.malekal.com/files.php?file=5826138beaa257757e8aa57c9b9f8f7f>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6fe994ad77806b7fa8e57e702369a878.zip> from <GET http://malwaredb.malekal.com/files.php?file=6fe994ad77806b7fa8e57e702369a878>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ba5cd871e53b6808b3b404b49c9b5ead.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ba5cd871e53b6808b3b404b49c9b5ead", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d9eeeb6815ebd919732b446ff4a04e2d.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d9eeeb6815ebd919732b446ff4a04e2d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3df5f191ee69299b2634faf06c3065fd.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3df5f191ee69299b2634faf06c3065fd", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/89b4ef94ed837cdcaeaafc5bdae7925a.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("89b4ef94ed837cdcaeaafc5bdae7925a", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f2263f5640eca6ed4d8b2f300c4584fc.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/503363728c9bf9c23331050de1738203.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f2263f5640eca6ed4d8b2f300c4584fc", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("503363728c9bf9c23331050de1738203", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7e496a88ec81e21ac30462bec0d7cf07.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/cd144cdec9f3d28d277a484bb731537f.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ff35edacb8c847e85a6494e7858ecada.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/dd66bcf26c50c12f2d1036ada8cc8c14.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7e496a88ec81e21ac30462bec0d7cf07", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1711464a23e9a0c222a361c3fcf3c318.zip> from <GET http://malwaredb.malekal.com/files.php?file=1711464a23e9a0c222a361c3fcf3c318>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=2> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("cd144cdec9f3d28d277a484bb731537f", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ff35edacb8c847e85a6494e7858ecada", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("dd66bcf26c50c12f2d1036ada8cc8c14", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d2c5568720d10bb6ec512882d58ae82c.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/64e2aed209e96fbc53b92a2da1a95d79.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/55b7f7c7554d1cc998a6a95a7fa68454.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3b6c4260eaaf6a280d63ec638388dbd4.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6fe994ad77806b7fa8e57e702369a878.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d2c5568720d10bb6ec512882d58ae82c", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b976c8bead9e68646c708822e32064fc.zip> from <GET http://malwaredb.malekal.com/files.php?file=b976c8bead9e68646c708822e32064fc>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5826138beaa257757e8aa57c9b9f8f7f.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8b4101f06ec2f56a0f9d332d618844a1.zip> from <GET http://malwaredb.malekal.com/files.php?file=8b4101f06ec2f56a0f9d332d618844a1>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/49b7d93e11c1e338121a656db8097042.zip> from <GET http://malwaredb.malekal.com/files.php?file=49b7d93e11c1e338121a656db8097042>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/09a9f8150603cbeab0b5cfff24340930.zip> from <GET http://malwaredb.malekal.com/files.php?file=09a9f8150603cbeab0b5cfff24340930>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("64e2aed209e96fbc53b92a2da1a95d79", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("55b7f7c7554d1cc998a6a95a7fa68454", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3b6c4260eaaf6a280d63ec638388dbd4", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6fe994ad77806b7fa8e57e702369a878", 0)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files.php?file=b981e264555e02168afa6421bd06f073> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files.php?file=6d02ce6c2d6765f0f96575af56d4aee3> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files.php?file=c2bccc6e7015c394c69e47f5ab5e5beb> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5826138beaa257757e8aa57c9b9f8f7f", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2b8e4c792bed0e5882702720bc528ae5.zip> from <GET http://malwaredb.malekal.com/files.php?file=2b8e4c792bed0e5882702720bc528ae5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a8712a3a86cf61b98641cf9710978272.zip> from <GET http://malwaredb.malekal.com/files.php?file=a8712a3a86cf61b98641cf9710978272>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/36a0cae178cc10d82d701457b923450a.zip> from <GET http://malwaredb.malekal.com/files.php?file=36a0cae178cc10d82d701457b923450a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/523bfc92573aeeb6d21bbecfbaee957d.zip> from <GET http://malwaredb.malekal.com/files.php?file=523bfc92573aeeb6d21bbecfbaee957d>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e2cc143d910eb41bc9a5df825a5831bb.zip> from <GET http://malwaredb.malekal.com/files.php?file=e2cc143d910eb41bc9a5df825a5831bb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6d3d29218656d91914e1589e13b9be5e.zip> from <GET http://malwaredb.malekal.com/files.php?file=6d3d29218656d91914e1589e13b9be5e>
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+INFO:scrapy.core.engine:Closing spider (shutdown)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7c63289d9f0164feee03e804caf08653.zip> from <GET http://malwaredb.malekal.com/files.php?file=7c63289d9f0164feee03e804caf08653>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/acf589c946e5b1e86ba205444e5a08e3.zip> from <GET http://malwaredb.malekal.com/files.php?file=acf589c946e5b1e86ba205444e5a08e3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a33ee66c78c031f4c74344e80856dd95.zip> from <GET http://malwaredb.malekal.com/files.php?file=a33ee66c78c031f4c74344e80856dd95>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/010568d9c9830ab54af019735561682e.zip> from <GET http://malwaredb.malekal.com/files.php?file=010568d9c9830ab54af019735561682e>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=3> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1711464a23e9a0c222a361c3fcf3c318.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1711464a23e9a0c222a361c3fcf3c318", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b976c8bead9e68646c708822e32064fc.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/49b7d93e11c1e338121a656db8097042.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b976c8bead9e68646c708822e32064fc", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2b8e4c792bed0e5882702720bc528ae5.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("49b7d93e11c1e338121a656db8097042", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2b8e4c792bed0e5882702720bc528ae5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6d3d29218656d91914e1589e13b9be5e.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8b4101f06ec2f56a0f9d332d618844a1.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6d3d29218656d91914e1589e13b9be5e", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e2cc143d910eb41bc9a5df825a5831bb.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8b4101f06ec2f56a0f9d332d618844a1", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e2cc143d910eb41bc9a5df825a5831bb", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a8712a3a86cf61b98641cf9710978272.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/09a9f8150603cbeab0b5cfff24340930.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a8712a3a86cf61b98641cf9710978272", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/523bfc92573aeeb6d21bbecfbaee957d.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("09a9f8150603cbeab0b5cfff24340930", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/36a0cae178cc10d82d701457b923450a.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("523bfc92573aeeb6d21bbecfbaee957d", 0)
+INFO:scrapy.extensions.logstats:Crawled 31 pages (at 31 pages/min), scraped 0 items (at 0 items/min)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("36a0cae178cc10d82d701457b923450a", 0)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 3,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 3,
+ 'downloader/request_bytes': 20553,
+ 'downloader/request_count': 65,
+ 'downloader/request_method_count/GET': 65,
+ 'downloader/response_bytes': 12089461,
+ 'downloader/response_count': 62,
+ 'downloader/response_status_count/200': 30,
+ 'downloader/response_status_count/302': 31,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 10, 10, 7, 29, 46, 701778),
+ 'log_count/DEBUG': 66,
+ 'log_count/INFO': 36,
+ 'request_depth_max': 3,
+ 'response_received_count': 31,
+ 'scheduler/dequeued': 64,
+ 'scheduler/dequeued/memory': 64,
+ 'scheduler/enqueued': 188,
+ 'scheduler/enqueued/memory': 188,
+ 'start_time': datetime.datetime(2016, 10, 10, 7, 28, 41, 398782)}
+INFO:scrapy.core.engine:Spider closed (shutdown)
+INFO:scrapy.utils.log:Scrapy 1.1.3 started (bot: malspider)
+INFO:scrapy.utils.log:Overridden settings: {'NEWSPIDER_MODULE': 'malspider.spiders', 'SPIDER_MODULES': ['malspider.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'malspider'}
+INFO:scrapy.middleware:Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+INFO:scrapy.middleware:Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO:scrapy.middleware:Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO:scrapy.middleware:Enabled item pipelines:
+[]
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.extensions.telnet:Telnet console listening on 127.0.0.1:6023
+DEBUG:scrapy.core.engine:Crawled (404) <GET http://malwaredb.malekal.com/robots.txt> (referer: None)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=1> (referer: None)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2094ed242ba494a5f8da8124403cdf70.zip> from <GET http://malwaredb.malekal.com/files.php?file=2094ed242ba494a5f8da8124403cdf70>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7bb5453458f755c0637700fa1635e5db.zip> from <GET http://malwaredb.malekal.com/files.php?file=7bb5453458f755c0637700fa1635e5db>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5b3583ed6524c0be8cce757ef81f56b0.zip> from <GET http://malwaredb.malekal.com/files.php?file=5b3583ed6524c0be8cce757ef81f56b0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/283f2c9a8fc3bf7bb658be696981da27.zip> from <GET http://malwaredb.malekal.com/files.php?file=283f2c9a8fc3bf7bb658be696981da27>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4a84096a83bfd1709d9308d9ab99ebfb.zip> from <GET http://malwaredb.malekal.com/files.php?file=4a84096a83bfd1709d9308d9ab99ebfb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d0345765ebef26f4e09910d2e74cd894.zip> from <GET http://malwaredb.malekal.com/files.php?file=d0345765ebef26f4e09910d2e74cd894>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2ecceb5712e58df9b73c908ec0664ff5.zip> from <GET http://malwaredb.malekal.com/files.php?file=2ecceb5712e58df9b73c908ec0664ff5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b47c13b0e1a8b4baae66583c79767fae.zip> from <GET http://malwaredb.malekal.com/files.php?file=b47c13b0e1a8b4baae66583c79767fae>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/dde36b6143b0b0f1cc2bfe5adb005e81.zip> from <GET http://malwaredb.malekal.com/files.php?file=dde36b6143b0b0f1cc2bfe5adb005e81>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0e88bef8a0dc876651e983c2bbadcc7f.zip> from <GET http://malwaredb.malekal.com/files.php?file=0e88bef8a0dc876651e983c2bbadcc7f>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2a165e21a6f51fedb4b7d0d32fb712ec.zip> from <GET http://malwaredb.malekal.com/files.php?file=2a165e21a6f51fedb4b7d0d32fb712ec>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d4002a51167f3bebea29370a19f1a523.zip> from <GET http://malwaredb.malekal.com/files.php?file=d4002a51167f3bebea29370a19f1a523>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7219807ecbd2eed997ad4873dbd2bef8.zip> from <GET http://malwaredb.malekal.com/files.php?file=7219807ecbd2eed997ad4873dbd2bef8>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2c349a73b524692a308b0d24b2c40ba3.zip> from <GET http://malwaredb.malekal.com/files.php?file=2c349a73b524692a308b0d24b2c40ba3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b981e264555e02168afa6421bd06f073.zip> from <GET http://malwaredb.malekal.com/files.php?file=b981e264555e02168afa6421bd06f073>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/660055a8fc235aff3e013d9dda19555e.zip> from <GET http://malwaredb.malekal.com/files.php?file=660055a8fc235aff3e013d9dda19555e>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5b3583ed6524c0be8cce757ef81f56b0.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5b3583ed6524c0be8cce757ef81f56b0", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/dde36b6143b0b0f1cc2bfe5adb005e81.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2ecceb5712e58df9b73c908ec0664ff5.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("dde36b6143b0b0f1cc2bfe5adb005e81", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4a84096a83bfd1709d9308d9ab99ebfb.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7bb5453458f755c0637700fa1635e5db.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2ecceb5712e58df9b73c908ec0664ff5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0e88bef8a0dc876651e983c2bbadcc7f.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4a84096a83bfd1709d9308d9ab99ebfb", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7bb5453458f755c0637700fa1635e5db", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b47c13b0e1a8b4baae66583c79767fae.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2a165e21a6f51fedb4b7d0d32fb712ec.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0e88bef8a0dc876651e983c2bbadcc7f", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/283f2c9a8fc3bf7bb658be696981da27.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2094ed242ba494a5f8da8124403cdf70.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d0345765ebef26f4e09910d2e74cd894.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b47c13b0e1a8b4baae66583c79767fae", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2a165e21a6f51fedb4b7d0d32fb712ec", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d4002a51167f3bebea29370a19f1a523.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("283f2c9a8fc3bf7bb658be696981da27", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2094ed242ba494a5f8da8124403cdf70", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d0345765ebef26f4e09910d2e74cd894", 0)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files/7219807ecbd2eed997ad4873dbd2bef8.zip> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d4002a51167f3bebea29370a19f1a523", 0)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files/b981e264555e02168afa6421bd06f073.zip> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files/660055a8fc235aff3e013d9dda19555e.zip> (failed 1 times): [<twisted.python.failure.Failure <class 'twisted.internet.error.ConnectionDone'>>]
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2c349a73b524692a308b0d24b2c40ba3.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2c349a73b524692a308b0d24b2c40ba3", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c2bccc6e7015c394c69e47f5ab5e5beb.zip> from <GET http://malwaredb.malekal.com/files.php?file=c2bccc6e7015c394c69e47f5ab5e5beb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6d02ce6c2d6765f0f96575af56d4aee3.zip> from <GET http://malwaredb.malekal.com/files.php?file=6d02ce6c2d6765f0f96575af56d4aee3>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=2> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/59801b34dea794f88172332dce88dfc3.zip> from <GET http://malwaredb.malekal.com/files.php?file=59801b34dea794f88172332dce88dfc3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/78090aa9660d0ac121b164cc72e7f528.zip> from <GET http://malwaredb.malekal.com/files.php?file=78090aa9660d0ac121b164cc72e7f528>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7554244ea84457f53ab9d4989c4d363d.zip> from <GET http://malwaredb.malekal.com/files.php?file=7554244ea84457f53ab9d4989c4d363d>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/07d1e487327e04ab24aa5babeaa9ab39.zip> from <GET http://malwaredb.malekal.com/files.php?file=07d1e487327e04ab24aa5babeaa9ab39>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/421a688ec466162a12b6fe7191e775d0.zip> from <GET http://malwaredb.malekal.com/files.php?file=421a688ec466162a12b6fe7191e775d0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8384042f9d889245e5d2405dbb20679e.zip> from <GET http://malwaredb.malekal.com/files.php?file=8384042f9d889245e5d2405dbb20679e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fba6bece50e7bc4e388d6b1c5e54afac.zip> from <GET http://malwaredb.malekal.com/files.php?file=fba6bece50e7bc4e388d6b1c5e54afac>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/baf9e357a90ccf15bcf875719b01ebbc.zip> from <GET http://malwaredb.malekal.com/files.php?file=baf9e357a90ccf15bcf875719b01ebbc>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5cb3dbd7432d25b5860ada5b894ba519.zip> from <GET http://malwaredb.malekal.com/files.php?file=5cb3dbd7432d25b5860ada5b894ba519>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d3de32089b31c8606aeca2f13055ba21.zip> from <GET http://malwaredb.malekal.com/files.php?file=d3de32089b31c8606aeca2f13055ba21>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/abde01a47298e1b75403ea03b482de05.zip> from <GET http://malwaredb.malekal.com/files.php?file=abde01a47298e1b75403ea03b482de05>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b981e264555e02168afa6421bd06f073.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/baf9e357a90ccf15bcf875719b01ebbc.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b981e264555e02168afa6421bd06f073", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7219807ecbd2eed997ad4873dbd2bef8.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("baf9e357a90ccf15bcf875719b01ebbc", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7219807ecbd2eed997ad4873dbd2bef8", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6d02ce6c2d6765f0f96575af56d4aee3.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c2bccc6e7015c394c69e47f5ab5e5beb.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6d02ce6c2d6765f0f96575af56d4aee3", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/59801b34dea794f88172332dce88dfc3.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/78090aa9660d0ac121b164cc72e7f528.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c2bccc6e7015c394c69e47f5ab5e5beb", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8384042f9d889245e5d2405dbb20679e.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7554244ea84457f53ab9d4989c4d363d.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("59801b34dea794f88172332dce88dfc3", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("78090aa9660d0ac121b164cc72e7f528", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/421a688ec466162a12b6fe7191e775d0.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fba6bece50e7bc4e388d6b1c5e54afac.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/07d1e487327e04ab24aa5babeaa9ab39.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8384042f9d889245e5d2405dbb20679e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7554244ea84457f53ab9d4989c4d363d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/660055a8fc235aff3e013d9dda19555e.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=3> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5cb3dbd7432d25b5860ada5b894ba519.zip> (referer: http://malwaredb.malekal.com/index.php?page=1)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("421a688ec466162a12b6fe7191e775d0", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fba6bece50e7bc4e388d6b1c5e54afac", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("07d1e487327e04ab24aa5babeaa9ab39", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7c63289d9f0164feee03e804caf08653.zip> from <GET http://malwaredb.malekal.com/files.php?file=7c63289d9f0164feee03e804caf08653>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/acf589c946e5b1e86ba205444e5a08e3.zip> from <GET http://malwaredb.malekal.com/files.php?file=acf589c946e5b1e86ba205444e5a08e3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a33ee66c78c031f4c74344e80856dd95.zip> from <GET http://malwaredb.malekal.com/files.php?file=a33ee66c78c031f4c74344e80856dd95>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/abde01a47298e1b75403ea03b482de05.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("660055a8fc235aff3e013d9dda19555e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5cb3dbd7432d25b5860ada5b894ba519", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/010568d9c9830ab54af019735561682e.zip> from <GET http://malwaredb.malekal.com/files.php?file=010568d9c9830ab54af019735561682e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b765135c7c3f06e07346125bd057d4e6.zip> from <GET http://malwaredb.malekal.com/files.php?file=b765135c7c3f06e07346125bd057d4e6>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1966c9de680f5b0a382f3a6857ada405.zip> from <GET http://malwaredb.malekal.com/files.php?file=1966c9de680f5b0a382f3a6857ada405>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("abde01a47298e1b75403ea03b482de05", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fbf7e2242a728161b549ce30559883c5.zip> from <GET http://malwaredb.malekal.com/files.php?file=fbf7e2242a728161b549ce30559883c5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/48c44001ef9b6ca05cc683426c9d7736.zip> from <GET http://malwaredb.malekal.com/files.php?file=48c44001ef9b6ca05cc683426c9d7736>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0d6ec0a662018d82b4b3add244ddd632.zip> from <GET http://malwaredb.malekal.com/files.php?file=0d6ec0a662018d82b4b3add244ddd632>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fb2463c18583518cebaf772ac1704a8f.zip> from <GET http://malwaredb.malekal.com/files.php?file=fb2463c18583518cebaf772ac1704a8f>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d3de32089b31c8606aeca2f13055ba21.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d3de32089b31c8606aeca2f13055ba21", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/562363c87b2908c453a4a4684b4001ab.zip> from <GET http://malwaredb.malekal.com/files.php?file=562363c87b2908c453a4a4684b4001ab>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4fa29bf1bdf2719bd7ee44b589d0e282.zip> from <GET http://malwaredb.malekal.com/files.php?file=4fa29bf1bdf2719bd7ee44b589d0e282>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/318e6611c2b6f000b521c75339f13313.zip> from <GET http://malwaredb.malekal.com/files.php?file=318e6611c2b6f000b521c75339f13313>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d16fbaaeed65a106183bd912a0168b01.zip> from <GET http://malwaredb.malekal.com/files.php?file=d16fbaaeed65a106183bd912a0168b01>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/cae2a5416f4ac42abb7cf670d9456a0a.zip> from <GET http://malwaredb.malekal.com/files.php?file=cae2a5416f4ac42abb7cf670d9456a0a>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7c63289d9f0164feee03e804caf08653.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7c63289d9f0164feee03e804caf08653", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/acf589c946e5b1e86ba205444e5a08e3.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b765135c7c3f06e07346125bd057d4e6.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("acf589c946e5b1e86ba205444e5a08e3", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/010568d9c9830ab54af019735561682e.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4045d8a69aa14ecf066147b70bd1231f.zip> from <GET http://malwaredb.malekal.com/files.php?file=4045d8a69aa14ecf066147b70bd1231f>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b765135c7c3f06e07346125bd057d4e6", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a33ee66c78c031f4c74344e80856dd95.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1966c9de680f5b0a382f3a6857ada405.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("010568d9c9830ab54af019735561682e", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fbf7e2242a728161b549ce30559883c5.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a33ee66c78c031f4c74344e80856dd95", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1966c9de680f5b0a382f3a6857ada405", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fb2463c18583518cebaf772ac1704a8f.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fbf7e2242a728161b549ce30559883c5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4fa29bf1bdf2719bd7ee44b589d0e282.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fb2463c18583518cebaf772ac1704a8f", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0d6ec0a662018d82b4b3add244ddd632.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/318e6611c2b6f000b521c75339f13313.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4fa29bf1bdf2719bd7ee44b589d0e282", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d16fbaaeed65a106183bd912a0168b01.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/562363c87b2908c453a4a4684b4001ab.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0d6ec0a662018d82b4b3add244ddd632", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("318e6611c2b6f000b521c75339f13313", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d16fbaaeed65a106183bd912a0168b01", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("562363c87b2908c453a4a4684b4001ab", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=4> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/cae2a5416f4ac42abb7cf670d9456a0a.zip> (referer: http://malwaredb.malekal.com/index.php?page=2)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("cae2a5416f4ac42abb7cf670d9456a0a", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/229c496798409c927b1e17e73ce1d280.zip> from <GET http://malwaredb.malekal.com/files.php?file=229c496798409c927b1e17e73ce1d280>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/21ece69b129b3c88b22249eb39bf7f52.zip> from <GET http://malwaredb.malekal.com/files.php?file=21ece69b129b3c88b22249eb39bf7f52>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/45881b98ac4d69681a1390c96599f039.zip> from <GET http://malwaredb.malekal.com/files.php?file=45881b98ac4d69681a1390c96599f039>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e1103c077aed6c2466a123313cbf3f2b.zip> from <GET http://malwaredb.malekal.com/files.php?file=e1103c077aed6c2466a123313cbf3f2b>
+INFO:scrapy.extensions.logstats:Crawled 48 pages (at 48 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/691a7baad70a03407835086aebf37010.zip> from <GET http://malwaredb.malekal.com/files.php?file=691a7baad70a03407835086aebf37010>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bf24ec794e461ace687b333f581e8238.zip> from <GET http://malwaredb.malekal.com/files.php?file=bf24ec794e461ace687b333f581e8238>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b78b366d18b5198075cd958e9ac95502.zip> from <GET http://malwaredb.malekal.com/files.php?file=b78b366d18b5198075cd958e9ac95502>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2c882042672902f2a62e6944a3d95176.zip> from <GET http://malwaredb.malekal.com/files.php?file=2c882042672902f2a62e6944a3d95176>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ccfa99f13f9e9dd52915c64f5fabae0f.zip> from <GET http://malwaredb.malekal.com/files.php?file=ccfa99f13f9e9dd52915c64f5fabae0f>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c0d4bb1f9c2a40e4348f6b2b4e60d8f5.zip> from <GET http://malwaredb.malekal.com/files.php?file=c0d4bb1f9c2a40e4348f6b2b4e60d8f5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6c91cc9d4d18cf0ec7ced9aa392c4744.zip> from <GET http://malwaredb.malekal.com/files.php?file=6c91cc9d4d18cf0ec7ced9aa392c4744>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9b7b29ce0a0380ff2e80a024c6826521.zip> from <GET http://malwaredb.malekal.com/files.php?file=9b7b29ce0a0380ff2e80a024c6826521>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0d196adaf3a1753010436802b25dafd9.zip> from <GET http://malwaredb.malekal.com/files.php?file=0d196adaf3a1753010436802b25dafd9>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/10e89b00d256ae8f0f700b0b1ff54c24.zip> from <GET http://malwaredb.malekal.com/files.php?file=10e89b00d256ae8f0f700b0b1ff54c24>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4045d8a69aa14ecf066147b70bd1231f.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4045d8a69aa14ecf066147b70bd1231f", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/21ece69b129b3c88b22249eb39bf7f52.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bf24ec794e461ace687b333f581e8238.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/229c496798409c927b1e17e73ce1d280.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("21ece69b129b3c88b22249eb39bf7f52", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bf24ec794e461ace687b333f581e8238", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("229c496798409c927b1e17e73ce1d280", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/45881b98ac4d69681a1390c96599f039.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2c882042672902f2a62e6944a3d95176.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("45881b98ac4d69681a1390c96599f039", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b78b366d18b5198075cd958e9ac95502.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2c882042672902f2a62e6944a3d95176", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b78b366d18b5198075cd958e9ac95502", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/691a7baad70a03407835086aebf37010.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e1103c077aed6c2466a123313cbf3f2b.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ccfa99f13f9e9dd52915c64f5fabae0f.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9b7b29ce0a0380ff2e80a024c6826521.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("691a7baad70a03407835086aebf37010", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3d5f0fc1c3adf2d6985ae5d4164ca336.zip> from <GET http://malwaredb.malekal.com/files.php?file=3d5f0fc1c3adf2d6985ae5d4164ca336>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0b16f28271fed351d4f1ac3f2b8e2d9d.zip> from <GET http://malwaredb.malekal.com/files.php?file=0b16f28271fed351d4f1ac3f2b8e2d9d>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6c91cc9d4d18cf0ec7ced9aa392c4744.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0d196adaf3a1753010436802b25dafd9.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=5> (referer: http://malwaredb.malekal.com/index.php?page=4)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e1103c077aed6c2466a123313cbf3f2b", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ccfa99f13f9e9dd52915c64f5fabae0f", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9b7b29ce0a0380ff2e80a024c6826521", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c0d4bb1f9c2a40e4348f6b2b4e60d8f5.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6c91cc9d4d18cf0ec7ced9aa392c4744", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0d196adaf3a1753010436802b25dafd9", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a140ddccae4ca4be49cd744635e527f6.zip> from <GET http://malwaredb.malekal.com/files.php?file=a140ddccae4ca4be49cd744635e527f6>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f4b82e331a6353f710f1706d4b5f4722.zip> from <GET http://malwaredb.malekal.com/files.php?file=f4b82e331a6353f710f1706d4b5f4722>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/10e89b00d256ae8f0f700b0b1ff54c24.zip> (referer: http://malwaredb.malekal.com/index.php?page=3)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c58408d782679e891c592130ef5c4df9.zip> from <GET http://malwaredb.malekal.com/files.php?file=c58408d782679e891c592130ef5c4df9>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7a4246ef8aee22606b9e8d7562820d46.zip> from <GET http://malwaredb.malekal.com/files.php?file=7a4246ef8aee22606b9e8d7562820d46>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b7ac5dae8a57a2329bf59d590e3227e5.zip> from <GET http://malwaredb.malekal.com/files.php?file=b7ac5dae8a57a2329bf59d590e3227e5>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c0d4bb1f9c2a40e4348f6b2b4e60d8f5", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/cc086a0e407c600f9cc82478f14dcc28.zip> from <GET http://malwaredb.malekal.com/files.php?file=cc086a0e407c600f9cc82478f14dcc28>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("10e89b00d256ae8f0f700b0b1ff54c24", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/46d73127a33d619e1d796c8b743290d3.zip> from <GET http://malwaredb.malekal.com/files.php?file=46d73127a33d619e1d796c8b743290d3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bc28e0eab099aa5cd1be3247ae45d3af.zip> from <GET http://malwaredb.malekal.com/files.php?file=bc28e0eab099aa5cd1be3247ae45d3af>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8dd9d89948053d23b6299ba2b9386599.zip> from <GET http://malwaredb.malekal.com/files.php?file=8dd9d89948053d23b6299ba2b9386599>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a8ffcf6137e6d2947c1503911f9666eb.zip> from <GET http://malwaredb.malekal.com/files.php?file=a8ffcf6137e6d2947c1503911f9666eb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a53f75b68f098f5b8d3e1119e9cb9702.zip> from <GET http://malwaredb.malekal.com/files.php?file=a53f75b68f098f5b8d3e1119e9cb9702>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/44bad7d96316320becf46b3003d45fc2.zip> from <GET http://malwaredb.malekal.com/files.php?file=44bad7d96316320becf46b3003d45fc2>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b7ac5dae8a57a2329bf59d590e3227e5.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b7ac5dae8a57a2329bf59d590e3227e5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c58408d782679e891c592130ef5c4df9.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/99a488152088928b343caa4c0f9a15ef.zip> from <GET http://malwaredb.malekal.com/files.php?file=99a488152088928b343caa4c0f9a15ef>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c58408d782679e891c592130ef5c4df9", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3d5f0fc1c3adf2d6985ae5d4164ca336.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/cc086a0e407c600f9cc82478f14dcc28.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0b16f28271fed351d4f1ac3f2b8e2d9d.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3d5f0fc1c3adf2d6985ae5d4164ca336", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f4b82e331a6353f710f1706d4b5f4722.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7a4246ef8aee22606b9e8d7562820d46.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8dd9d89948053d23b6299ba2b9386599.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("cc086a0e407c600f9cc82478f14dcc28", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0b16f28271fed351d4f1ac3f2b8e2d9d", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f4b82e331a6353f710f1706d4b5f4722", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7a4246ef8aee22606b9e8d7562820d46", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8dd9d89948053d23b6299ba2b9386599", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a8ffcf6137e6d2947c1503911f9666eb.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=6> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a140ddccae4ca4be49cd744635e527f6.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bc28e0eab099aa5cd1be3247ae45d3af.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/46d73127a33d619e1d796c8b743290d3.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a53f75b68f098f5b8d3e1119e9cb9702.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/44bad7d96316320becf46b3003d45fc2.zip> (referer: http://malwaredb.malekal.com/index.php?page=4)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a8ffcf6137e6d2947c1503911f9666eb", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ae1cd090bee84d25c27b83754fdb05d3.zip> from <GET http://malwaredb.malekal.com/files.php?file=ae1cd090bee84d25c27b83754fdb05d3>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/99a488152088928b343caa4c0f9a15ef.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/803a9951c75174f67740ce852f8899a5.zip> from <GET http://malwaredb.malekal.com/files.php?file=803a9951c75174f67740ce852f8899a5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9927589a8334b76f2988cdff68e509b2.zip> from <GET http://malwaredb.malekal.com/files.php?file=9927589a8334b76f2988cdff68e509b2>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/561b26ac2f2673c840cc60f175b03814.zip> from <GET http://malwaredb.malekal.com/files.php?file=561b26ac2f2673c840cc60f175b03814>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/62d4dc40fba011645eba8418f7f65537.zip> from <GET http://malwaredb.malekal.com/files.php?file=62d4dc40fba011645eba8418f7f65537>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e64f3f7e2571fb70be22bab92c7dbec0.zip> from <GET http://malwaredb.malekal.com/files.php?file=e64f3f7e2571fb70be22bab92c7dbec0>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a140ddccae4ca4be49cd744635e527f6", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bc28e0eab099aa5cd1be3247ae45d3af", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("46d73127a33d619e1d796c8b743290d3", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a53f75b68f098f5b8d3e1119e9cb9702", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("44bad7d96316320becf46b3003d45fc2", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("99a488152088928b343caa4c0f9a15ef", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9737e379c08d2cc2de067337911c3ee1.zip> from <GET http://malwaredb.malekal.com/files.php?file=9737e379c08d2cc2de067337911c3ee1>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/158263c004197b98ffd2edd2acb53905.zip> from <GET http://malwaredb.malekal.com/files.php?file=158263c004197b98ffd2edd2acb53905>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1b7021bfe0dbf6a364d4a47b9c676a7b.zip> from <GET http://malwaredb.malekal.com/files.php?file=1b7021bfe0dbf6a364d4a47b9c676a7b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b290a4d96a62c4326f3bd9732def5bf1.zip> from <GET http://malwaredb.malekal.com/files.php?file=b290a4d96a62c4326f3bd9732def5bf1>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/47f6d9186367a921aecbb850d56f6f15.zip> from <GET http://malwaredb.malekal.com/files.php?file=47f6d9186367a921aecbb850d56f6f15>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f75d7e280681396416f2381d57071e3d.zip> from <GET http://malwaredb.malekal.com/files.php?file=f75d7e280681396416f2381d57071e3d>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/81e1a7bd48bdd7c068463ff606f9e38b.zip> from <GET http://malwaredb.malekal.com/files.php?file=81e1a7bd48bdd7c068463ff606f9e38b>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e64f3f7e2571fb70be22bab92c7dbec0.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e64f3f7e2571fb70be22bab92c7dbec0", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ae1cd090bee84d25c27b83754fdb05d3.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b40888f400a149337a8a45225e0c7674.zip> from <GET http://malwaredb.malekal.com/files.php?file=b40888f400a149337a8a45225e0c7674>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5a4181052c874e5bc115cd524b086d81.zip> from <GET http://malwaredb.malekal.com/files.php?file=5a4181052c874e5bc115cd524b086d81>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ae1cd090bee84d25c27b83754fdb05d3", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f75d7e280681396416f2381d57071e3d.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f75d7e280681396416f2381d57071e3d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/803a9951c75174f67740ce852f8899a5.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("803a9951c75174f67740ce852f8899a5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/62d4dc40fba011645eba8418f7f65537.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("62d4dc40fba011645eba8418f7f65537", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1b7021bfe0dbf6a364d4a47b9c676a7b.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1b7021bfe0dbf6a364d4a47b9c676a7b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/47f6d9186367a921aecbb850d56f6f15.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("47f6d9186367a921aecbb850d56f6f15", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9737e379c08d2cc2de067337911c3ee1.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b290a4d96a62c4326f3bd9732def5bf1.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=7> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9737e379c08d2cc2de067337911c3ee1", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/27691e9758352f3c0431794a7f5eb334.zip> from <GET http://malwaredb.malekal.com/files.php?file=27691e9758352f3c0431794a7f5eb334>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b290a4d96a62c4326f3bd9732def5bf1", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/412c3453f5e68a4125a064c0db5e9ade.zip> from <GET http://malwaredb.malekal.com/files.php?file=412c3453f5e68a4125a064c0db5e9ade>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9927589a8334b76f2988cdff68e509b2.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/cebf81cd5aae9adfd5fabf363288d3d1.zip> from <GET http://malwaredb.malekal.com/files.php?file=cebf81cd5aae9adfd5fabf363288d3d1>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9927589a8334b76f2988cdff68e509b2", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/81e1a7bd48bdd7c068463ff606f9e38b.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5a4181052c874e5bc115cd524b086d81.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/24873542df5a38a6946d8c0537db4b5e.zip> from <GET http://malwaredb.malekal.com/files.php?file=24873542df5a38a6946d8c0537db4b5e>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("81e1a7bd48bdd7c068463ff606f9e38b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/158263c004197b98ffd2edd2acb53905.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0a1497c6ac3aeb9d372af24a4cfd4223.zip> from <GET http://malwaredb.malekal.com/files.php?file=0a1497c6ac3aeb9d372af24a4cfd4223>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b5e02162e83fffc9561403e01ca01e56.zip> from <GET http://malwaredb.malekal.com/files.php?file=b5e02162e83fffc9561403e01ca01e56>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b15b4a0b893df2a8e2d04963242721ef.zip> from <GET http://malwaredb.malekal.com/files.php?file=b15b4a0b893df2a8e2d04963242721ef>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/684feda64be3cc0fcd2a56995e38ef27.zip> from <GET http://malwaredb.malekal.com/files.php?file=684feda64be3cc0fcd2a56995e38ef27>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5a4181052c874e5bc115cd524b086d81", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/561b26ac2f2673c840cc60f175b03814.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("158263c004197b98ffd2edd2acb53905", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f496577d5917428cb284675df6b6c5fa.zip> from <GET http://malwaredb.malekal.com/files.php?file=f496577d5917428cb284675df6b6c5fa>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("561b26ac2f2673c840cc60f175b03814", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/cebf81cd5aae9adfd5fabf363288d3d1.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=8> (referer: http://malwaredb.malekal.com/index.php?page=7)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("cebf81cd5aae9adfd5fabf363288d3d1", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4d304bcf9caba2c067c84ff7aff935f5.zip> from <GET http://malwaredb.malekal.com/files.php?file=4d304bcf9caba2c067c84ff7aff935f5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/113c1ba67424512d3f230d2965ea8299.zip> from <GET http://malwaredb.malekal.com/files.php?file=113c1ba67424512d3f230d2965ea8299>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/27691e9758352f3c0431794a7f5eb334.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("27691e9758352f3c0431794a7f5eb334", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b40888f400a149337a8a45225e0c7674.zip> (referer: http://malwaredb.malekal.com/index.php?page=5)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/412c3453f5e68a4125a064c0db5e9ade.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b40888f400a149337a8a45225e0c7674", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fa6029abf546026cf5de1735a3c310b0.zip> from <GET http://malwaredb.malekal.com/files.php?file=fa6029abf546026cf5de1735a3c310b0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d552681e866395f39e841185d0d756c5.zip> from <GET http://malwaredb.malekal.com/files.php?file=d552681e866395f39e841185d0d756c5>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/684feda64be3cc0fcd2a56995e38ef27.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/24873542df5a38a6946d8c0537db4b5e.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("412c3453f5e68a4125a064c0db5e9ade", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b5e02162e83fffc9561403e01ca01e56.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("684feda64be3cc0fcd2a56995e38ef27", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("24873542df5a38a6946d8c0537db4b5e", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/de7db381733f3c5a479865120f58a8c1.zip> from <GET http://malwaredb.malekal.com/files.php?file=de7db381733f3c5a479865120f58a8c1>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/12f4de75e2e299e6d444a58fff78d83d.zip> from <GET http://malwaredb.malekal.com/files.php?file=12f4de75e2e299e6d444a58fff78d83d>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b5e02162e83fffc9561403e01ca01e56", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bb49293dda6d6856f820af1a1546b621.zip> from <GET http://malwaredb.malekal.com/files.php?file=bb49293dda6d6856f820af1a1546b621>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/846171e2629b712429a903811d19c12b.zip> from <GET http://malwaredb.malekal.com/files.php?file=846171e2629b712429a903811d19c12b>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f496577d5917428cb284675df6b6c5fa.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=9> (referer: http://malwaredb.malekal.com/index.php?page=8)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f496577d5917428cb284675df6b6c5fa", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1e705fbbf8cb07e6a8b6b52131f71cfe.zip> from <GET http://malwaredb.malekal.com/files.php?file=1e705fbbf8cb07e6a8b6b52131f71cfe>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/95bb79e97cbe7b7b38c45e92a73b0eb0.zip> from <GET http://malwaredb.malekal.com/files.php?file=95bb79e97cbe7b7b38c45e92a73b0eb0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1d5be62233b211a963820b5a8efd55a4.zip> from <GET http://malwaredb.malekal.com/files.php?file=1d5be62233b211a963820b5a8efd55a4>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/113c1ba67424512d3f230d2965ea8299.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4d304bcf9caba2c067c84ff7aff935f5.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("113c1ba67424512d3f230d2965ea8299", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d552681e866395f39e841185d0d756c5.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4d304bcf9caba2c067c84ff7aff935f5", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d552681e866395f39e841185d0d756c5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/12f4de75e2e299e6d444a58fff78d83d.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/de7db381733f3c5a479865120f58a8c1.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bb49293dda6d6856f820af1a1546b621.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("12f4de75e2e299e6d444a58fff78d83d", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/dc2a288fa07bb63be23e27e37c50711d.zip> from <GET http://malwaredb.malekal.com/files.php?file=dc2a288fa07bb63be23e27e37c50711d>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ed8ec2b331d9ae57cc0588236f343474.zip> from <GET http://malwaredb.malekal.com/files.php?file=ed8ec2b331d9ae57cc0588236f343474>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/846171e2629b712429a903811d19c12b.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("de7db381733f3c5a479865120f58a8c1", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bb49293dda6d6856f820af1a1546b621", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1e705fbbf8cb07e6a8b6b52131f71cfe.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("846171e2629b712429a903811d19c12b", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1e705fbbf8cb07e6a8b6b52131f71cfe", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d96eb5edd2270956692023f196cf6d45.zip> from <GET http://malwaredb.malekal.com/files.php?file=d96eb5edd2270956692023f196cf6d45>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=10> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/95bb79e97cbe7b7b38c45e92a73b0eb0.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3b70776bfffa1d51579568f9db11d26a.zip> from <GET http://malwaredb.malekal.com/files.php?file=3b70776bfffa1d51579568f9db11d26a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6dcfd7e13af4d031e370cd9edc164e1c.zip> from <GET http://malwaredb.malekal.com/files.php?file=6dcfd7e13af4d031e370cd9edc164e1c>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("95bb79e97cbe7b7b38c45e92a73b0eb0", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2c3a43ecd0432a13201d0d46fbcf3494.zip> from <GET http://malwaredb.malekal.com/files.php?file=2c3a43ecd0432a13201d0d46fbcf3494>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/63ea91945ee92981d7b7fe32b6852a3e.zip> from <GET http://malwaredb.malekal.com/files.php?file=63ea91945ee92981d7b7fe32b6852a3e>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1d5be62233b211a963820b5a8efd55a4.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f4d4dfcb0433ffa48706ccaa477b3c03.zip> from <GET http://malwaredb.malekal.com/files.php?file=f4d4dfcb0433ffa48706ccaa477b3c03>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1d5be62233b211a963820b5a8efd55a4", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/514b22529e682838f1dfa24c740a73f8.zip> from <GET http://malwaredb.malekal.com/files.php?file=514b22529e682838f1dfa24c740a73f8>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a87de9afdcab1f21353b26d5c2d0c55b.zip> from <GET http://malwaredb.malekal.com/files.php?file=a87de9afdcab1f21353b26d5c2d0c55b>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d96eb5edd2270956692023f196cf6d45.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d96eb5edd2270956692023f196cf6d45", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0a1497c6ac3aeb9d372af24a4cfd4223.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=11> (referer: http://malwaredb.malekal.com/index.php?page=10)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0a1497c6ac3aeb9d372af24a4cfd4223", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/63ea91945ee92981d7b7fe32b6852a3e.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fa6029abf546026cf5de1735a3c310b0.zip> (referer: http://malwaredb.malekal.com/index.php?page=7)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3b70776bfffa1d51579568f9db11d26a.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6dcfd7e13af4d031e370cd9edc164e1c.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ed8ec2b331d9ae57cc0588236f343474.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/dc2a288fa07bb63be23e27e37c50711d.zip> (referer: http://malwaredb.malekal.com/index.php?page=8)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("63ea91945ee92981d7b7fe32b6852a3e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fa6029abf546026cf5de1735a3c310b0", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3b70776bfffa1d51579568f9db11d26a", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6dcfd7e13af4d031e370cd9edc164e1c", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a962dc20da3af730b9281c555f84f381.zip> from <GET http://malwaredb.malekal.com/files.php?file=a962dc20da3af730b9281c555f84f381>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b83084409598344335bb313288a7034c.zip> from <GET http://malwaredb.malekal.com/files.php?file=b83084409598344335bb313288a7034c>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ed8ec2b331d9ae57cc0588236f343474", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("dc2a288fa07bb63be23e27e37c50711d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/514b22529e682838f1dfa24c740a73f8.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f4d4dfcb0433ffa48706ccaa477b3c03.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+INFO:scrapy.extensions.logstats:Crawled 127 pages (at 79 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a87de9afdcab1f21353b26d5c2d0c55b.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b15b4a0b893df2a8e2d04963242721ef.zip> (referer: http://malwaredb.malekal.com/index.php?page=6)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("514b22529e682838f1dfa24c740a73f8", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f4d4dfcb0433ffa48706ccaa477b3c03", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a87de9afdcab1f21353b26d5c2d0c55b", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b15b4a0b893df2a8e2d04963242721ef", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2c3a43ecd0432a13201d0d46fbcf3494.zip> (referer: http://malwaredb.malekal.com/index.php?page=9)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2c3a43ecd0432a13201d0d46fbcf3494", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c658b7c4a08df624a3a702b471dcba70.zip> from <GET http://malwaredb.malekal.com/files.php?file=c658b7c4a08df624a3a702b471dcba70>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4e27bbdd2cd78785877ecb32950c0363.zip> from <GET http://malwaredb.malekal.com/files.php?file=4e27bbdd2cd78785877ecb32950c0363>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c6c57442bc117d2a482e92ecc9ff44cd.zip> from <GET http://malwaredb.malekal.com/files.php?file=c6c57442bc117d2a482e92ecc9ff44cd>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d407501c97311dead02d49cc82eeb001.zip> from <GET http://malwaredb.malekal.com/files.php?file=d407501c97311dead02d49cc82eeb001>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0ce306cc4dbf73288f3051a9dd5e855a.zip> from <GET http://malwaredb.malekal.com/files.php?file=0ce306cc4dbf73288f3051a9dd5e855a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/aed7120328d1178bb11ae8a029fc6854.zip> from <GET http://malwaredb.malekal.com/files.php?file=aed7120328d1178bb11ae8a029fc6854>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6b64ede9b7294fcd2c904a8d3859ceb5.zip> from <GET http://malwaredb.malekal.com/files.php?file=6b64ede9b7294fcd2c904a8d3859ceb5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c139bd4f55a66324fa9c41020140b1ef.zip> from <GET http://malwaredb.malekal.com/files.php?file=c139bd4f55a66324fa9c41020140b1ef>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bc2fe312b989e215434e6e636b4da630.zip> from <GET http://malwaredb.malekal.com/files.php?file=bc2fe312b989e215434e6e636b4da630>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/456ab53043435073fd1b30d0a7c53bb3.zip> from <GET http://malwaredb.malekal.com/files.php?file=456ab53043435073fd1b30d0a7c53bb3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1b4484f1b3d00830bdc87ff7846db977.zip> from <GET http://malwaredb.malekal.com/files.php?file=1b4484f1b3d00830bdc87ff7846db977>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bafc3e5e6c52e7159c95294502fd83eb.zip> from <GET http://malwaredb.malekal.com/files.php?file=bafc3e5e6c52e7159c95294502fd83eb>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6b64ede9b7294fcd2c904a8d3859ceb5.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6b64ede9b7294fcd2c904a8d3859ceb5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=12> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c6c57442bc117d2a482e92ecc9ff44cd.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c6c57442bc117d2a482e92ecc9ff44cd", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c658b7c4a08df624a3a702b471dcba70.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c658b7c4a08df624a3a702b471dcba70", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c139bd4f55a66324fa9c41020140b1ef.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/aed7120328d1178bb11ae8a029fc6854.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c139bd4f55a66324fa9c41020140b1ef", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("aed7120328d1178bb11ae8a029fc6854", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0ce306cc4dbf73288f3051a9dd5e855a.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b83084409598344335bb313288a7034c.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a962dc20da3af730b9281c555f84f381.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/456ab53043435073fd1b30d0a7c53bb3.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1b4484f1b3d00830bdc87ff7846db977.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0ce306cc4dbf73288f3051a9dd5e855a", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/eacc1591200cdaca80151059e59d6d49.zip> from <GET http://malwaredb.malekal.com/files.php?file=eacc1591200cdaca80151059e59d6d49>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bc2fe312b989e215434e6e636b4da630.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/13ae7c2525adea175cfdda352d2d0b47.zip> from <GET http://malwaredb.malekal.com/files.php?file=13ae7c2525adea175cfdda352d2d0b47>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=13> (referer: http://malwaredb.malekal.com/index.php?page=12)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b83084409598344335bb313288a7034c", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a962dc20da3af730b9281c555f84f381", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("456ab53043435073fd1b30d0a7c53bb3", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1b4484f1b3d00830bdc87ff7846db977", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bc2fe312b989e215434e6e636b4da630", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4e27bbdd2cd78785877ecb32950c0363.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4e27bbdd2cd78785877ecb32950c0363", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/298acf5d7c72257581e4c6c2c42637a8.zip> from <GET http://malwaredb.malekal.com/files.php?file=298acf5d7c72257581e4c6c2c42637a8>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b8e5628f240fda49ea6c3f572df5737b.zip> from <GET http://malwaredb.malekal.com/files.php?file=b8e5628f240fda49ea6c3f572df5737b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f099bb013cead4e4b2f80d37b3d3588a.zip> from <GET http://malwaredb.malekal.com/files.php?file=f099bb013cead4e4b2f80d37b3d3588a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5d28ed2a039a2e884d4fc01207d88f6d.zip> from <GET http://malwaredb.malekal.com/files.php?file=5d28ed2a039a2e884d4fc01207d88f6d>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d407501c97311dead02d49cc82eeb001.zip> (referer: http://malwaredb.malekal.com/index.php?page=10)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c375f9cdcd8c712372d83f0dcbdadb39.zip> from <GET http://malwaredb.malekal.com/files.php?file=c375f9cdcd8c712372d83f0dcbdadb39>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bafc3e5e6c52e7159c95294502fd83eb.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d407501c97311dead02d49cc82eeb001", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/58dd66e7bf07aa918d446cf7fa6f008a.zip> from <GET http://malwaredb.malekal.com/files.php?file=58dd66e7bf07aa918d446cf7fa6f008a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/564c9a432cba85b7ce79e5c27c22bd23.zip> from <GET http://malwaredb.malekal.com/files.php?file=564c9a432cba85b7ce79e5c27c22bd23>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3e3bcfcd8a84977d1d0df9b3a84bb736.zip> from <GET http://malwaredb.malekal.com/files.php?file=3e3bcfcd8a84977d1d0df9b3a84bb736>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d348023664889617f3e444acf050ad81.zip> from <GET http://malwaredb.malekal.com/files.php?file=d348023664889617f3e444acf050ad81>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/88b84c64b255730ef574c32dd1486c4c.zip> from <GET http://malwaredb.malekal.com/files.php?file=88b84c64b255730ef574c32dd1486c4c>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bafc3e5e6c52e7159c95294502fd83eb", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9e6cb2308b2446cacac6cb90afc0e130.zip> from <GET http://malwaredb.malekal.com/files.php?file=9e6cb2308b2446cacac6cb90afc0e130>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f099bb013cead4e4b2f80d37b3d3588a.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f099bb013cead4e4b2f80d37b3d3588a", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/298acf5d7c72257581e4c6c2c42637a8.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b8e5628f240fda49ea6c3f572df5737b.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=14> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("298acf5d7c72257581e4c6c2c42637a8", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/eacc1591200cdaca80151059e59d6d49.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/13ae7c2525adea175cfdda352d2d0b47.zip> (referer: http://malwaredb.malekal.com/index.php?page=11)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/527290686ec5515f248d4d20c3bb29df.zip> from <GET http://malwaredb.malekal.com/files.php?file=527290686ec5515f248d4d20c3bb29df>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b8e5628f240fda49ea6c3f572df5737b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c375f9cdcd8c712372d83f0dcbdadb39.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5d28ed2a039a2e884d4fc01207d88f6d.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d348023664889617f3e444acf050ad81.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/88b84c64b255730ef574c32dd1486c4c.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("eacc1591200cdaca80151059e59d6d49", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("13ae7c2525adea175cfdda352d2d0b47", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c375f9cdcd8c712372d83f0dcbdadb39", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5d28ed2a039a2e884d4fc01207d88f6d", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d348023664889617f3e444acf050ad81", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("88b84c64b255730ef574c32dd1486c4c", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9a06b67b47fd3a03fc9764e37b68c0ee.zip> from <GET http://malwaredb.malekal.com/files.php?file=9a06b67b47fd3a03fc9764e37b68c0ee>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/95096c4e0e74d7f7355ea35995db62e0.zip> from <GET http://malwaredb.malekal.com/files.php?file=95096c4e0e74d7f7355ea35995db62e0>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3e3bcfcd8a84977d1d0df9b3a84bb736.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/564c9a432cba85b7ce79e5c27c22bd23.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/58dd66e7bf07aa918d446cf7fa6f008a.zip> (referer: http://malwaredb.malekal.com/index.php?page=12)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3e3bcfcd8a84977d1d0df9b3a84bb736", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7aaf07509b1c26b2ae526c4cad3f2cbf.zip> from <GET http://malwaredb.malekal.com/files.php?file=7aaf07509b1c26b2ae526c4cad3f2cbf>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("564c9a432cba85b7ce79e5c27c22bd23", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("58dd66e7bf07aa918d446cf7fa6f008a", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/527290686ec5515f248d4d20c3bb29df.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("527290686ec5515f248d4d20c3bb29df", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c9d556ab91c580d41db94c3df0c63473.zip> from <GET http://malwaredb.malekal.com/files.php?file=c9d556ab91c580d41db94c3df0c63473>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4f177d66ecc3adc63d1c71fa6afddcb9.zip> from <GET http://malwaredb.malekal.com/files.php?file=4f177d66ecc3adc63d1c71fa6afddcb9>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/276a2fad48c7429cc22d0b18c1c83281.zip> from <GET http://malwaredb.malekal.com/files.php?file=276a2fad48c7429cc22d0b18c1c83281>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/647cc35c53c49dcf53a7db9b19ff338b.zip> from <GET http://malwaredb.malekal.com/files.php?file=647cc35c53c49dcf53a7db9b19ff338b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/facaa847094b93147da2b64d34f84858.zip> from <GET http://malwaredb.malekal.com/files.php?file=facaa847094b93147da2b64d34f84858>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/90eb8948513e21a8c87f8295ac7e81f5.zip> from <GET http://malwaredb.malekal.com/files.php?file=90eb8948513e21a8c87f8295ac7e81f5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c11aaf8278da4fdd60702bae9f6dbcc0.zip> from <GET http://malwaredb.malekal.com/files.php?file=c11aaf8278da4fdd60702bae9f6dbcc0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ee5ab34929d00d58b9f43801339c3e81.zip> from <GET http://malwaredb.malekal.com/files.php?file=ee5ab34929d00d58b9f43801339c3e81>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e45d246ffd090fab656b248a6f2a4d62.zip> from <GET http://malwaredb.malekal.com/files.php?file=e45d246ffd090fab656b248a6f2a4d62>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3653d438ea919ca9f9a8f7b19e2c016a.zip> from <GET http://malwaredb.malekal.com/files.php?file=3653d438ea919ca9f9a8f7b19e2c016a>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/95096c4e0e74d7f7355ea35995db62e0.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9a06b67b47fd3a03fc9764e37b68c0ee.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("95096c4e0e74d7f7355ea35995db62e0", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9a06b67b47fd3a03fc9764e37b68c0ee", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7aaf07509b1c26b2ae526c4cad3f2cbf.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7aaf07509b1c26b2ae526c4cad3f2cbf", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=15> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9e6cb2308b2446cacac6cb90afc0e130.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9e6cb2308b2446cacac6cb90afc0e130", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/90eb8948513e21a8c87f8295ac7e81f5.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c9d556ab91c580d41db94c3df0c63473.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/647cc35c53c49dcf53a7db9b19ff338b.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("90eb8948513e21a8c87f8295ac7e81f5", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c9d556ab91c580d41db94c3df0c63473", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("647cc35c53c49dcf53a7db9b19ff338b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3653d438ea919ca9f9a8f7b19e2c016a.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ee5ab34929d00d58b9f43801339c3e81.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3653d438ea919ca9f9a8f7b19e2c016a", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/facaa847094b93147da2b64d34f84858.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e45d246ffd090fab656b248a6f2a4d62.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/276a2fad48c7429cc22d0b18c1c83281.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c11aaf8278da4fdd60702bae9f6dbcc0.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9a871ba015d0a0f43daf48f8dac83987.zip> from <GET http://malwaredb.malekal.com/files.php?file=9a871ba015d0a0f43daf48f8dac83987>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/95fe78f2a5d8b1451baf924e7d60fcc4.zip> from <GET http://malwaredb.malekal.com/files.php?file=95fe78f2a5d8b1451baf924e7d60fcc4>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ee5ab34929d00d58b9f43801339c3e81", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4f177d66ecc3adc63d1c71fa6afddcb9.zip> (referer: http://malwaredb.malekal.com/index.php?page=13)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("facaa847094b93147da2b64d34f84858", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e45d246ffd090fab656b248a6f2a4d62", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("276a2fad48c7429cc22d0b18c1c83281", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c11aaf8278da4fdd60702bae9f6dbcc0", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/86fa752330fb189952a69742244b5890.zip> from <GET http://malwaredb.malekal.com/files.php?file=86fa752330fb189952a69742244b5890>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b10c180400cc99d540045566451e2c1e.zip> from <GET http://malwaredb.malekal.com/files.php?file=b10c180400cc99d540045566451e2c1e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7b56ce19f72c349288d55a565189726b.zip> from <GET http://malwaredb.malekal.com/files.php?file=7b56ce19f72c349288d55a565189726b>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=16> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5e12ac5bd2c7711b1c8f4b9f1e0f3b17.zip> from <GET http://malwaredb.malekal.com/files.php?file=5e12ac5bd2c7711b1c8f4b9f1e0f3b17>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/666c3cf5e43006f1f575c22d2f550024.zip> from <GET http://malwaredb.malekal.com/files.php?file=666c3cf5e43006f1f575c22d2f550024>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4f177d66ecc3adc63d1c71fa6afddcb9", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/33a3cab09b0f65bc1e0896fe012a90eb.zip> from <GET http://malwaredb.malekal.com/files.php?file=33a3cab09b0f65bc1e0896fe012a90eb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bcb0486c2f875290542a9d34f5b258c5.zip> from <GET http://malwaredb.malekal.com/files.php?file=bcb0486c2f875290542a9d34f5b258c5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d013c27ce3f5bedc1c138ca1d9d05154.zip> from <GET http://malwaredb.malekal.com/files.php?file=d013c27ce3f5bedc1c138ca1d9d05154>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/67ca5ff9195fbfa94136b7fe4c2d1979.zip> from <GET http://malwaredb.malekal.com/files.php?file=67ca5ff9195fbfa94136b7fe4c2d1979>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d6b18988d73708639b299738f40f6f37.zip> from <GET http://malwaredb.malekal.com/files.php?file=d6b18988d73708639b299738f40f6f37>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/31cbd641d3755c3c51a51e2aed00d553.zip> from <GET http://malwaredb.malekal.com/files.php?file=31cbd641d3755c3c51a51e2aed00d553>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/29d182bd3b72ff240b2e8f23760a8d46.zip> from <GET http://malwaredb.malekal.com/files.php?file=29d182bd3b72ff240b2e8f23760a8d46>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/95fe78f2a5d8b1451baf924e7d60fcc4.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9a871ba015d0a0f43daf48f8dac83987.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("95fe78f2a5d8b1451baf924e7d60fcc4", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f49fa788a32d09bf6c98f0439a4338e1.zip> from <GET http://malwaredb.malekal.com/files.php?file=f49fa788a32d09bf6c98f0439a4338e1>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/86fa752330fb189952a69742244b5890.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9a871ba015d0a0f43daf48f8dac83987", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/666c3cf5e43006f1f575c22d2f550024.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/33a3cab09b0f65bc1e0896fe012a90eb.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("86fa752330fb189952a69742244b5890", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("666c3cf5e43006f1f575c22d2f550024", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("33a3cab09b0f65bc1e0896fe012a90eb", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7b56ce19f72c349288d55a565189726b.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b10c180400cc99d540045566451e2c1e.zip> (referer: http://malwaredb.malekal.com/index.php?page=14)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/31cbd641d3755c3c51a51e2aed00d553.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bcb0486c2f875290542a9d34f5b258c5.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/67ca5ff9195fbfa94136b7fe4c2d1979.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7b56ce19f72c349288d55a565189726b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d013c27ce3f5bedc1c138ca1d9d05154.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fd0b2cce0a1a169e09985db77f41a152.zip> from <GET http://malwaredb.malekal.com/files.php?file=fd0b2cce0a1a169e09985db77f41a152>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/29d182bd3b72ff240b2e8f23760a8d46.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=17> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b10c180400cc99d540045566451e2c1e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("31cbd641d3755c3c51a51e2aed00d553", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bcb0486c2f875290542a9d34f5b258c5", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("67ca5ff9195fbfa94136b7fe4c2d1979", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d6b18988d73708639b299738f40f6f37.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d013c27ce3f5bedc1c138ca1d9d05154", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("29d182bd3b72ff240b2e8f23760a8d46", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a6434c72947c7621c9aeefd40b5c4f85.zip> from <GET http://malwaredb.malekal.com/files.php?file=a6434c72947c7621c9aeefd40b5c4f85>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fb3e9411c793743b644c1015ce86239b.zip> from <GET http://malwaredb.malekal.com/files.php?file=fb3e9411c793743b644c1015ce86239b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e95a7c2fb1b1c35c6d10e18da3422b59.zip> from <GET http://malwaredb.malekal.com/files.php?file=e95a7c2fb1b1c35c6d10e18da3422b59>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f49fa788a32d09bf6c98f0439a4338e1.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/bd753f8554ec68240219f865ebd6d02a.zip> from <GET http://malwaredb.malekal.com/files.php?file=bd753f8554ec68240219f865ebd6d02a>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d6b18988d73708639b299738f40f6f37", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d7de02b81897768c8a8a07c092fd377d.zip> from <GET http://malwaredb.malekal.com/files.php?file=d7de02b81897768c8a8a07c092fd377d>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f49fa788a32d09bf6c98f0439a4338e1", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ed7714eace020c829af1e8e6ad716bdb.zip> from <GET http://malwaredb.malekal.com/files.php?file=ed7714eace020c829af1e8e6ad716bdb>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7b2d79c8514485d19c8f251419710cb6.zip> from <GET http://malwaredb.malekal.com/files.php?file=7b2d79c8514485d19c8f251419710cb6>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d5c6a0acdc905a9269e54994930f79ec.zip> from <GET http://malwaredb.malekal.com/files.php?file=d5c6a0acdc905a9269e54994930f79ec>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/50d4166d41b640d33b48e923d28b91e2.zip> from <GET http://malwaredb.malekal.com/files.php?file=50d4166d41b640d33b48e923d28b91e2>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d15d5d78edfaf91b18c614f59bfee866.zip> from <GET http://malwaredb.malekal.com/files.php?file=d15d5d78edfaf91b18c614f59bfee866>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/77ab1fa8ac5eddbf586537c0046cdee3.zip> from <GET http://malwaredb.malekal.com/files.php?file=77ab1fa8ac5eddbf586537c0046cdee3>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9efad5aafe6b8dc603678f4bb4ee5aa8.zip> from <GET http://malwaredb.malekal.com/files.php?file=9efad5aafe6b8dc603678f4bb4ee5aa8>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fd0b2cce0a1a169e09985db77f41a152.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fd0b2cce0a1a169e09985db77f41a152", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6eb8865bf055ba30cc9e2843f16ee461.zip> from <GET http://malwaredb.malekal.com/files.php?file=6eb8865bf055ba30cc9e2843f16ee461>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d7de02b81897768c8a8a07c092fd377d.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fb3e9411c793743b644c1015ce86239b.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d7de02b81897768c8a8a07c092fd377d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a6434c72947c7621c9aeefd40b5c4f85.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/bd753f8554ec68240219f865ebd6d02a.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fb3e9411c793743b644c1015ce86239b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e95a7c2fb1b1c35c6d10e18da3422b59.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7b2d79c8514485d19c8f251419710cb6.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a6434c72947c7621c9aeefd40b5c4f85", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("bd753f8554ec68240219f865ebd6d02a", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d5c6a0acdc905a9269e54994930f79ec.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e95a7c2fb1b1c35c6d10e18da3422b59", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7b2d79c8514485d19c8f251419710cb6", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5e12ac5bd2c7711b1c8f4b9f1e0f3b17.zip> (referer: http://malwaredb.malekal.com/index.php?page=15)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/77ab1fa8ac5eddbf586537c0046cdee3.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d5c6a0acdc905a9269e54994930f79ec", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/50d4166d41b640d33b48e923d28b91e2.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d15d5d78edfaf91b18c614f59bfee866.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9efad5aafe6b8dc603678f4bb4ee5aa8.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5e12ac5bd2c7711b1c8f4b9f1e0f3b17", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("77ab1fa8ac5eddbf586537c0046cdee3", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ed7714eace020c829af1e8e6ad716bdb.zip> (referer: http://malwaredb.malekal.com/index.php?page=16)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e6b466e3bc31303ad5f61d7157c9b23b.zip> from <GET http://malwaredb.malekal.com/files.php?file=e6b466e3bc31303ad5f61d7157c9b23b>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=18> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("50d4166d41b640d33b48e923d28b91e2", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d15d5d78edfaf91b18c614f59bfee866", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9efad5aafe6b8dc603678f4bb4ee5aa8", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ed7714eace020c829af1e8e6ad716bdb", 0)
+INFO:scrapy.extensions.logstats:Crawled 206 pages (at 79 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6eb8865bf055ba30cc9e2843f16ee461.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6eb8865bf055ba30cc9e2843f16ee461", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/13c31ebf36b9fb576acd9acd7478b6f0.zip> from <GET http://malwaredb.malekal.com/files.php?file=13c31ebf36b9fb576acd9acd7478b6f0>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fe9599290827ae8f5462b2c2907036c5.zip> from <GET http://malwaredb.malekal.com/files.php?file=fe9599290827ae8f5462b2c2907036c5>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/0ecbd97473df5c34d51f59f678e36582.zip> from <GET http://malwaredb.malekal.com/files.php?file=0ecbd97473df5c34d51f59f678e36582>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a7f32cf81237c342200ac6bd21c31ac9.zip> from <GET http://malwaredb.malekal.com/files.php?file=a7f32cf81237c342200ac6bd21c31ac9>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/fce88de99497f98b4d4384b6077702ee.zip> from <GET http://malwaredb.malekal.com/files.php?file=fce88de99497f98b4d4384b6077702ee>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/874fc3f09bfdb21d2b679270ee38d82b.zip> from <GET http://malwaredb.malekal.com/files.php?file=874fc3f09bfdb21d2b679270ee38d82b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9376bb7d23d4f3299fc79376d817875b.zip> from <GET http://malwaredb.malekal.com/files.php?file=9376bb7d23d4f3299fc79376d817875b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d42e9b4eb7e310f397d16a4ad3ac8680.zip> from <GET http://malwaredb.malekal.com/files.php?file=d42e9b4eb7e310f397d16a4ad3ac8680>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/925e4d90dd6e583fcae285beceb18222.zip> from <GET http://malwaredb.malekal.com/files.php?file=925e4d90dd6e583fcae285beceb18222>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e83ce7fe1b6fce4899bbd484ea63c77e.zip> from <GET http://malwaredb.malekal.com/files.php?file=e83ce7fe1b6fce4899bbd484ea63c77e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9c797bc16ab5c0d9b21b36bd30feb426.zip> from <GET http://malwaredb.malekal.com/files.php?file=9c797bc16ab5c0d9b21b36bd30feb426>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7c8d1e85e35c7ec7f774d57b931faed4.zip> from <GET http://malwaredb.malekal.com/files.php?file=7c8d1e85e35c7ec7f774d57b931faed4>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/4c23c7a0de0e34afec9aa7c2de432a8a.zip> from <GET http://malwaredb.malekal.com/files.php?file=4c23c7a0de0e34afec9aa7c2de432a8a>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b92f9ae816037aca93e5a3b192a230d5.zip> from <GET http://malwaredb.malekal.com/files.php?file=b92f9ae816037aca93e5a3b192a230d5>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fe9599290827ae8f5462b2c2907036c5.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fe9599290827ae8f5462b2c2907036c5", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/13c31ebf36b9fb576acd9acd7478b6f0.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9376bb7d23d4f3299fc79376d817875b.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/0ecbd97473df5c34d51f59f678e36582.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a7f32cf81237c342200ac6bd21c31ac9.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/fce88de99497f98b4d4384b6077702ee.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("13c31ebf36b9fb576acd9acd7478b6f0", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/874fc3f09bfdb21d2b679270ee38d82b.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9376bb7d23d4f3299fc79376d817875b", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("0ecbd97473df5c34d51f59f678e36582", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a7f32cf81237c342200ac6bd21c31ac9", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("fce88de99497f98b4d4384b6077702ee", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9c797bc16ab5c0d9b21b36bd30feb426.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e83ce7fe1b6fce4899bbd484ea63c77e.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d42e9b4eb7e310f397d16a4ad3ac8680.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/925e4d90dd6e583fcae285beceb18222.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("874fc3f09bfdb21d2b679270ee38d82b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/4c23c7a0de0e34afec9aa7c2de432a8a.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7c8d1e85e35c7ec7f774d57b931faed4.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9c797bc16ab5c0d9b21b36bd30feb426", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e83ce7fe1b6fce4899bbd484ea63c77e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d42e9b4eb7e310f397d16a4ad3ac8680", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("925e4d90dd6e583fcae285beceb18222", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=19> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f588ff7cf39976ecdaa448d2c4f038f7.zip> from <GET http://malwaredb.malekal.com/files.php?file=f588ff7cf39976ecdaa448d2c4f038f7>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e8f95701665cdc87164be2b4ab5e1628.zip> from <GET http://malwaredb.malekal.com/files.php?file=e8f95701665cdc87164be2b4ab5e1628>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("4c23c7a0de0e34afec9aa7c2de432a8a", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7c8d1e85e35c7ec7f774d57b931faed4", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/292a9695981b5f82b5ab2dc39bc8b234.zip> from <GET http://malwaredb.malekal.com/files.php?file=292a9695981b5f82b5ab2dc39bc8b234>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/077c18b65c9df64cffd791ad0a63106e.zip> from <GET http://malwaredb.malekal.com/files.php?file=077c18b65c9df64cffd791ad0a63106e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/99b966191421f3559d35161345177000.zip> from <GET http://malwaredb.malekal.com/files.php?file=99b966191421f3559d35161345177000>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/a5bf3f8c41a6972084d7d7407304ef25.zip> from <GET http://malwaredb.malekal.com/files.php?file=a5bf3f8c41a6972084d7d7407304ef25>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8e87ac15e1f234429af4199a6c037998.zip> from <GET http://malwaredb.malekal.com/files.php?file=8e87ac15e1f234429af4199a6c037998>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/884c445370aae8524d9eef123baa5765.zip> from <GET http://malwaredb.malekal.com/files.php?file=884c445370aae8524d9eef123baa5765>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/e4abcfdb90d770140674dd0065db244f.zip> from <GET http://malwaredb.malekal.com/files.php?file=e4abcfdb90d770140674dd0065db244f>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9e5af1f9712add7d2ec44f23e78641be.zip> from <GET http://malwaredb.malekal.com/files.php?file=9e5af1f9712add7d2ec44f23e78641be>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/50bc4ebf5496a49070b919458f9e9693.zip> from <GET http://malwaredb.malekal.com/files.php?file=50bc4ebf5496a49070b919458f9e9693>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ea2be09f939737898e80e3a5d04d5728.zip> from <GET http://malwaredb.malekal.com/files.php?file=ea2be09f939737898e80e3a5d04d5728>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/cef3598b719653fe4abfd00a0ee40d5c.zip> from <GET http://malwaredb.malekal.com/files.php?file=cef3598b719653fe4abfd00a0ee40d5c>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e8f95701665cdc87164be2b4ab5e1628.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e8f95701665cdc87164be2b4ab5e1628", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/292a9695981b5f82b5ab2dc39bc8b234.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f588ff7cf39976ecdaa448d2c4f038f7.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/077c18b65c9df64cffd791ad0a63106e.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("292a9695981b5f82b5ab2dc39bc8b234", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f588ff7cf39976ecdaa448d2c4f038f7", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("077c18b65c9df64cffd791ad0a63106e", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/99b966191421f3559d35161345177000.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("99b966191421f3559d35161345177000", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/a5bf3f8c41a6972084d7d7407304ef25.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/884c445370aae8524d9eef123baa5765.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("a5bf3f8c41a6972084d7d7407304ef25", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e4abcfdb90d770140674dd0065db244f.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("884c445370aae8524d9eef123baa5765", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8e87ac15e1f234429af4199a6c037998.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ea2be09f939737898e80e3a5d04d5728.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e4abcfdb90d770140674dd0065db244f", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8e87ac15e1f234429af4199a6c037998", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ea2be09f939737898e80e3a5d04d5728", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/43861eb2ba14248eb888fb07e2af4919.zip> from <GET http://malwaredb.malekal.com/files.php?file=43861eb2ba14248eb888fb07e2af4919>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/50bc4ebf5496a49070b919458f9e9693.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2c900b326df8d9812f7e9f871508659e.zip> from <GET http://malwaredb.malekal.com/files.php?file=2c900b326df8d9812f7e9f871508659e>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("50bc4ebf5496a49070b919458f9e9693", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/cef3598b719653fe4abfd00a0ee40d5c.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8adbcffe2cb52628afe8d6412c1e3a06.zip> from <GET http://malwaredb.malekal.com/files.php?file=8adbcffe2cb52628afe8d6412c1e3a06>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b089194ff75946efce5592934094c746.zip> from <GET http://malwaredb.malekal.com/files.php?file=b089194ff75946efce5592934094c746>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=20> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("cef3598b719653fe4abfd00a0ee40d5c", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/9e5af1f9712add7d2ec44f23e78641be.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7c9e84c5fa36a216008942ccf944bc1b.zip> from <GET http://malwaredb.malekal.com/files.php?file=7c9e84c5fa36a216008942ccf944bc1b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/7694b7136177399d8717185db27329a4.zip> from <GET http://malwaredb.malekal.com/files.php?file=7694b7136177399d8717185db27329a4>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f2b50ffc47a652f99836a5ed32963a0e.zip> from <GET http://malwaredb.malekal.com/files.php?file=f2b50ffc47a652f99836a5ed32963a0e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/67fa031550cef08e5bd2f148a92ec8e6.zip> from <GET http://malwaredb.malekal.com/files.php?file=67fa031550cef08e5bd2f148a92ec8e6>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("9e5af1f9712add7d2ec44f23e78641be", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/af4b37790d784fd9a7e02ab614a8b1f4.zip> from <GET http://malwaredb.malekal.com/files.php?file=af4b37790d784fd9a7e02ab614a8b1f4>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/ea3dc2b75c89a142823b7a502f12d89f.zip> from <GET http://malwaredb.malekal.com/files.php?file=ea3dc2b75c89a142823b7a502f12d89f>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b089194ff75946efce5592934094c746.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b089194ff75946efce5592934094c746", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1197d73224d0b5b8591fefd966c64a7e.zip> from <GET http://malwaredb.malekal.com/files.php?file=1197d73224d0b5b8591fefd966c64a7e>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d9752fda90d56931f92cffb9a6090339.zip> from <GET http://malwaredb.malekal.com/files.php?file=d9752fda90d56931f92cffb9a6090339>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/67fa031550cef08e5bd2f148a92ec8e6.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("67fa031550cef08e5bd2f148a92ec8e6", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/43861eb2ba14248eb888fb07e2af4919.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/f2b50ffc47a652f99836a5ed32963a0e.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("43861eb2ba14248eb888fb07e2af4919", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/60629a64249bcd2bc3726ff95c4164ba.zip> from <GET http://malwaredb.malekal.com/files.php?file=60629a64249bcd2bc3726ff95c4164ba>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2c900b326df8d9812f7e9f871508659e.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("f2b50ffc47a652f99836a5ed32963a0e", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7c9e84c5fa36a216008942ccf944bc1b.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2c900b326df8d9812f7e9f871508659e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7c9e84c5fa36a216008942ccf944bc1b", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8adbcffe2cb52628afe8d6412c1e3a06.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/ea3dc2b75c89a142823b7a502f12d89f.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8adbcffe2cb52628afe8d6412c1e3a06", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=21> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("ea3dc2b75c89a142823b7a502f12d89f", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8b7ba6fb3209ca7715db46f814e135a7.zip> from <GET http://malwaredb.malekal.com/files.php?file=8b7ba6fb3209ca7715db46f814e135a7>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/1b943ea7955f82f33172b9d242739753.zip> from <GET http://malwaredb.malekal.com/files.php?file=1b943ea7955f82f33172b9d242739753>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c783ddd5c6fe33eea4e46c8dee47adb9.zip> from <GET http://malwaredb.malekal.com/files.php?file=c783ddd5c6fe33eea4e46c8dee47adb9>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/60629a64249bcd2bc3726ff95c4164ba.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("60629a64249bcd2bc3726ff95c4164ba", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/6b0b81611596c5ba0009a2f994b9881d.zip> from <GET http://malwaredb.malekal.com/files.php?file=6b0b81611596c5ba0009a2f994b9881d>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1197d73224d0b5b8591fefd966c64a7e.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1197d73224d0b5b8591fefd966c64a7e", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/af4b37790d784fd9a7e02ab614a8b1f4.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/5907bab599e3b3cd8c64978d070f186c.zip> from <GET http://malwaredb.malekal.com/files.php?file=5907bab599e3b3cd8c64978d070f186c>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/d10195670651a40c46c22972cd839e89.zip> from <GET http://malwaredb.malekal.com/files.php?file=d10195670651a40c46c22972cd839e89>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("af4b37790d784fd9a7e02ab614a8b1f4", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/710bb9e24cc5daf1a9f8c53880b1df24.zip> from <GET http://malwaredb.malekal.com/files.php?file=710bb9e24cc5daf1a9f8c53880b1df24>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/337e2c2e4ef0ad03bd574f96e8a37f2d.zip> from <GET http://malwaredb.malekal.com/files.php?file=337e2c2e4ef0ad03bd574f96e8a37f2d>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d9752fda90d56931f92cffb9a6090339.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d9752fda90d56931f92cffb9a6090339", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/1b943ea7955f82f33172b9d242739753.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("1b943ea7955f82f33172b9d242739753", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=22> (referer: http://malwaredb.malekal.com/index.php?page=21)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3a7a01087a77158332f96830c2e6136e.zip> from <GET http://malwaredb.malekal.com/files.php?file=3a7a01087a77158332f96830c2e6136e>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/6b0b81611596c5ba0009a2f994b9881d.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("6b0b81611596c5ba0009a2f994b9881d", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/5907bab599e3b3cd8c64978d070f186c.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("5907bab599e3b3cd8c64978d070f186c", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8b7ba6fb3209ca7715db46f814e135a7.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/af0ead4e0484eec6a6e0418b68d4e474.zip> from <GET http://malwaredb.malekal.com/files.php?file=af0ead4e0484eec6a6e0418b68d4e474>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8b7ba6fb3209ca7715db46f814e135a7", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/7694b7136177399d8717185db27329a4.zip> (referer: http://malwaredb.malekal.com/index.php?page=19)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/710bb9e24cc5daf1a9f8c53880b1df24.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("7694b7136177399d8717185db27329a4", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/8dce66933cd5abb1821889ba4746a1b7.zip> from <GET http://malwaredb.malekal.com/files.php?file=8dce66933cd5abb1821889ba4746a1b7>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/aeb5a39ea32a649e0c01d03dfc230461.zip> from <GET http://malwaredb.malekal.com/files.php?file=aeb5a39ea32a649e0c01d03dfc230461>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("710bb9e24cc5daf1a9f8c53880b1df24", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/d10195670651a40c46c22972cd839e89.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("d10195670651a40c46c22972cd839e89", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/2a86d5d8c576c831eb5386788141a13a.zip> from <GET http://malwaredb.malekal.com/files.php?file=2a86d5d8c576c831eb5386788141a13a>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/3a7a01087a77158332f96830c2e6136e.zip> (referer: http://malwaredb.malekal.com/index.php?page=21)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/b92f9ae816037aca93e5a3b192a230d5.zip> (referer: http://malwaredb.malekal.com/index.php?page=18)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/index.php?page=23> (referer: http://malwaredb.malekal.com/index.php?page=22)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/337e2c2e4ef0ad03bd574f96e8a37f2d.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("3a7a01087a77158332f96830c2e6136e", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("b92f9ae816037aca93e5a3b192a230d5", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("337e2c2e4ef0ad03bd574f96e8a37f2d", 0)
+INFO:scrapy.crawler:Received SIGINT, shutting down gracefully. Send again to force 
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/f99a13e84583ec64c5c62597c2d20a91.zip> from <GET http://malwaredb.malekal.com/files.php?file=f99a13e84583ec64c5c62597c2d20a91>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/b8bdb69e1d92d97a53beb8b5bd627d40.zip> from <GET http://malwaredb.malekal.com/files.php?file=b8bdb69e1d92d97a53beb8b5bd627d40>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/dcc06a0e0cc9d842f4101fe82ba57802.zip> from <GET http://malwaredb.malekal.com/files.php?file=dcc06a0e0cc9d842f4101fe82ba57802>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/3707f238e6fd39081bba54547f390ab5.zip> from <GET http://malwaredb.malekal.com/files.php?file=3707f238e6fd39081bba54547f390ab5>
+INFO:scrapy.core.engine:Closing spider (shutdown)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://malwaredb.malekal.com/files/48c44001ef9b6ca05cc683426c9d7736.zip> (failed 1 times): User timeout caused connection failure: Getting http://malwaredb.malekal.com/files/48c44001ef9b6ca05cc683426c9d7736.zip took longer than 180.0 seconds..
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/af0ead4e0484eec6a6e0418b68d4e474.zip> (referer: http://malwaredb.malekal.com/index.php?page=21)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("af0ead4e0484eec6a6e0418b68d4e474", 0)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c46f5401a25623aa870c4033e6035b05.zip> from <GET http://malwaredb.malekal.com/files.php?file=c46f5401a25623aa870c4033e6035b05>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/9aa3bf74d8340de1fbe0037969134f4b.zip> from <GET http://malwaredb.malekal.com/files.php?file=9aa3bf74d8340de1fbe0037969134f4b>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/501d9016ce495583f9d7bf1b1798e9f8.zip> from <GET http://malwaredb.malekal.com/files.php?file=501d9016ce495583f9d7bf1b1798e9f8>
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/181d2969448fe435612750acb506c16a.zip> from <GET http://malwaredb.malekal.com/files.php?file=181d2969448fe435612750acb506c16a>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/aeb5a39ea32a649e0c01d03dfc230461.zip> (referer: http://malwaredb.malekal.com/index.php?page=21)
+DEBUG:scrapy.downloadermiddlewares.redirect:Redirecting (302) to <GET http://malwaredb.malekal.com/files/c85eccd7411e688facca5bd0be62e946.zip> from <GET http://malwaredb.malekal.com/files.php?file=c85eccd7411e688facca5bd0be62e946>
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("aeb5a39ea32a649e0c01d03dfc230461", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/c783ddd5c6fe33eea4e46c8dee47adb9.zip> (referer: http://malwaredb.malekal.com/index.php?page=20)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("c783ddd5c6fe33eea4e46c8dee47adb9", 0)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/8dce66933cd5abb1821889ba4746a1b7.zip> (referer: http://malwaredb.malekal.com/index.php?page=21)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/e6b466e3bc31303ad5f61d7157c9b23b.zip> (referer: http://malwaredb.malekal.com/index.php?page=17)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("8dce66933cd5abb1821889ba4746a1b7", 0)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("e6b466e3bc31303ad5f61d7157c9b23b", 0)
+INFO:scrapy.extensions.logstats:Crawled 265 pages (at 59 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://malwaredb.malekal.com/files/2a86d5d8c576c831eb5386788141a13a.zip> (referer: http://malwaredb.malekal.com/index.php?page=21)
+INFO:root:INSERT INTO md5(md5, isdown) VALUES ("2a86d5d8c576c831eb5386788141a13a", 0)
+INFO:scrapy.statscollectors:Dumping Scrapy stats:
+{'downloader/exception_count': 4,
+ 'downloader/exception_type_count/twisted.internet.error.TimeoutError': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 3,
+ 'downloader/request_bytes': 166276,
+ 'downloader/request_count': 522,
+ 'downloader/request_method_count/GET': 522,
+ 'downloader/response_bytes': 45366986,
+ 'downloader/response_count': 518,
+ 'downloader/response_status_count/200': 265,
+ 'downloader/response_status_count/302': 252,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2016, 10, 10, 7, 36, 2, 959926),
+ 'log_count/DEBUG': 523,
+ 'log_count/INFO': 254,
+ 'request_depth_max': 23,
+ 'response_received_count': 266,
+ 'scheduler/dequeued': 521,
+ 'scheduler/dequeued/memory': 521,
+ 'scheduler/enqueued': 1403,
+ 'scheduler/enqueued/memory': 1403,
+ 'start_time': datetime.datetime(2016, 10, 10, 7, 31, 50, 940322)}
+INFO:scrapy.core.engine:Spider closed (shutdown)
