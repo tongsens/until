@@ -1,0 +1,135 @@
+/usr/bin/python2.7 /root/PycharmProjects/untitled/myspider/mogujie/mogujie/main.py
+2016-10-19 22:35:31 [scrapy] INFO: Scrapy 1.1.3 started (bot: mogujie)
+2016-10-19 22:35:31 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'mogujie.spiders', 'SPIDER_MODULES': ['mogujie.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'mogujie'}
+2016-10-19 22:35:31 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 22:35:31 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 22:35:31 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 22:35:31 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-10-19 22:35:31 [scrapy] INFO: Spider opened
+2016-10-19 22:35:31 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 22:35:31 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-10-19 22:35:31 [scrapy] DEBUG: Crawled (404) <GET http://list.mogujie.com/robots.txt> (referer: None)
+2016-10-19 22:35:31 [scrapy] DEBUG: Crawled (200) <GET http://list.mogujie.com/s?q=%E6%83%85%E8%B6%A3&ptp=1._mf1_1239_15261.0.0.J0CWK&f=baidusem_15iolsgmgz> (referer: None)
+2016-10-19 22:35:32 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56281/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "phantomjs", "version": "", "javascriptEnabled": true}}
+2016-10-19 22:35:32 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:35:32 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56281/wd/hub/session/df9dc800-966d-11e6-ab83-571e9c1f79e1/url {"url": "http://list.mogujie.com/s?q=%E6%83%85%E8%B6%A3&ptp=1._mf1_1239_15261.0.0.J0CWK&f=baidusem_15iolsgmgz", "sessionId": "df9dc800-966d-11e6-ab83-571e9c1f79e1"}
+2016-10-19 22:35:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:35:34 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56281/wd/hub/session/df9dc800-966d-11e6-ab83-571e9c1f79e1/element {"using": "class name", "sessionId": "df9dc800-966d-11e6-ab83-571e9c1f79e1", "value": "ts_btn"}
+2016-10-19 22:35:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:35:34 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:56281/wd/hub/session/df9dc800-966d-11e6-ab83-571e9c1f79e1/element/:wdc:1476930934575/click {"sessionId": "df9dc800-966d-11e6-ab83-571e9c1f79e1", "id": ":wdc:1476930934575"}
+2016-10-19 22:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:56281/wd/hub/session/df9dc800-966d-11e6-ab83-571e9c1f79e1/source {"sessionId": "df9dc800-966d-11e6-ab83-571e9c1f79e1"}
+2016-10-19 22:35:35 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+6
+2016-10-19 22:35:35 [scrapy] INFO: Closing spider (finished)
+2016-10-19 22:35:35 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 570,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 13051,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 20, 2, 35, 35, 690156),
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 10, 20, 2, 35, 31, 605778)}
+2016-10-19 22:35:35 [scrapy] INFO: Spider closed (finished)
+
+Process finished with exit code 0
+
+
+/usr/bin/python2.7 /root/PycharmProjects/untitled/myspider/mogujie/mogujie/main.py
+2016-10-19 22:37:30 [scrapy] INFO: Scrapy 1.1.3 started (bot: mogujie)
+2016-10-19 22:37:30 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'mogujie.spiders', 'SPIDER_MODULES': ['mogujie.spiders'], 'ROBOTSTXT_OBEY': True, 'BOT_NAME': 'mogujie'}
+2016-10-19 22:37:30 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-10-19 22:37:30 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-10-19 22:37:30 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-10-19 22:37:30 [scrapy] INFO: Enabled item pipelines:
+[]
+2016-10-19 22:37:30 [scrapy] INFO: Spider opened
+2016-10-19 22:37:30 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-10-19 22:37:30 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-10-19 22:37:30 [scrapy] DEBUG: Crawled (404) <GET http://list.mogujie.com/robots.txt> (referer: None)
+2016-10-19 22:37:30 [scrapy] DEBUG: Crawled (200) <GET http://list.mogujie.com/s?q=%E6%83%85%E8%B6%A3&ptp=1._mf1_1239_15261.0.0.J0CWK&f=baidusem_15iolsgmgz> (referer: None)
+2016-10-19 22:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47731/wd/hub/session {"requiredCapabilities": {}, "desiredCapabilities": {"platform": "ANY", "browserName": "phantomjs", "version": "", "javascriptEnabled": true}}
+2016-10-19 22:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:37:31 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47731/wd/hub/session/267e01e0-966e-11e6-a923-6725e2f6dd51/url {"url": "http://list.mogujie.com/s?q=%E6%83%85%E8%B6%A3&ptp=1._mf1_1239_15261.0.0.J0CWK&f=baidusem_15iolsgmgz", "sessionId": "267e01e0-966e-11e6-a923-6725e2f6dd51"}
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47731/wd/hub/session/267e01e0-966e-11e6-a923-6725e2f6dd51/element {"using": "class name", "sessionId": "267e01e0-966e-11e6-a923-6725e2f6dd51", "value": "ts_btn"}
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: POST http://127.0.0.1:47731/wd/hub/session/267e01e0-966e-11e6-a923-6725e2f6dd51/element/:wdc:1476931053416/click {"sessionId": "267e01e0-966e-11e6-a923-6725e2f6dd51", "id": ":wdc:1476931053416"}
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+2016-10-19 22:37:33 [selenium.webdriver.remote.remote_connection] DEBUG: GET http://127.0.0.1:47731/wd/hub/session/267e01e0-966e-11e6-a923-6725e2f6dd51/source {"sessionId": "267e01e0-966e-11e6-a923-6725e2f6dd51"}
+2016-10-19 22:37:34 [selenium.webdriver.remote.remote_connection] DEBUG: Finished Request
+
+[u'http://shop.mogujie.com/detail/18lpkpy?acm=3.ms.1_1_18lpkpy.1.1355-5081-5022-5024-5563.yMhq08sl5Ng.t_0-c_1_4_49288879_0_15&cparam=MTQ3NjkzMTA5MF8xMWtfYzM4ZjM5MjgxOGVmZjg0ZWM5ZTU5MDM4YWIzYTZlNDdfNF8xNF80OTI4ODg3OV8wXzBfMTU%3D']
+2016-10-19 22:37:34 [scrapy] INFO: Closing spider (finished)
+2016-10-19 22:37:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 570,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 13053,
+ 'downloader/response_count': 2,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/404': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 10, 20, 2, 37, 34, 209217),
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 7,
+ 'response_received_count': 2,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 10, 20, 2, 37, 30, 501131)}
+2016-10-19 22:37:34 [scrapy] INFO: Spider closed (finished)
+
+Process finished with exit code 0
