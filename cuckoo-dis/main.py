@@ -89,7 +89,7 @@ def readip():
 
 class Database():
     def __init__(self):
-        self.conn = sqlite3.connect('md5.db')
+        self.conn = sqlite3.connect('md5_inf.db')
         try:
             self.conn.execute("CREATE TABLE md5 (md5 TEXT NOT NULL UNIQUE)")
         except:
