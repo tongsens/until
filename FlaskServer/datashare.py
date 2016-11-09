@@ -37,7 +37,7 @@ def downfile(path):
     '''
     pathlist = path.split('*')
     targetpath = os.path.join('/', *pathlist)
-    tar_file = zip_dir(targetpath, '/root/tmp.zip')
+    tar_file = zip_dir(targetpath, '/root/datashare/tmp.zip')
     try:
         response = make_response(send_file(tar_file))
         response.headers["Content-Disposition"] = "attachment; filename=tmp.zip"
@@ -67,10 +67,43 @@ def writefile(data):
     :param data: user input
     :return: input
     '''
-    with open('/root/writebuf', 'w') as fp:
+    filepath = '/root/datashare/writebuf'
+    with open(filepath, 'w') as fp:
         fp.write(data)
+    cmd = 'cat %s | xclip -selection clipboard'%filepath
+    os.system(cmd)
     return data
 
+
+@app.route('/paste')
+def paste():
+    '''
+    get paste data
+    :return: paste data
+    '''
+    return os.popen('xclip -o').read()
+
+
+@app.route('/')
+def index():
+    usage = '''
+        <html>
+        <body>
+        <h1>usage:</h1>
+        <p>/paste</p>
+        <p>/read/path  path split by *, ex:root*tmp=/root/tmp</p>
+        <p>/write/data</p>
+        <p>/download/path</p>
+        <body>
+        </html>
+        '''
+    return usage
+
+
 if __name__ == '__main__':
+    try:
+        os.system('mkdir /root/datashare')
+    except Exception,e:
+        print e
     app.debug = True
-    app.run(host='0.0.0.0', port=5001, threaded=True)
+    app.run(host='0.0.0.0', port=5002, threaded=True)
